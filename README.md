@@ -10,6 +10,7 @@ Rails authentication with email & password.
 
 
 
+
 Clearance is intended to be small, simple, and well-tested. It has opinionated
 defaults but is intended to be easy to override.
 
