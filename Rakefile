@@ -16,6 +16,7 @@ RSpec::Core::RakeTask.new("spec") do |task|
   task.verbose = false
 end
 
+
 desc "Run acceptance specs in spec/acceptance"
 RSpec::Core::RakeTask.new("spec:acceptance") do |task|
   task.pattern = "spec/acceptance/**/*_spec.rb"
